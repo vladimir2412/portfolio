@@ -72,13 +72,14 @@ body {
 	line-height: 1.3;
 	font-weight: 700;
 }
-.sticky {
+
+/* Nav */
+.nav {
+	/* Sticky */
 	position: fixed;
 	top: 0;
 	width: 100%;
-}
-/* Nav */
-.nav {
+
 	letter-spacing: normal;
 	border-bottom: 1px solid #26292d;
 	padding: 20px 0;
