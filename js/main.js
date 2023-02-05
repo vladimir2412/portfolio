@@ -1,5 +1,11 @@
 /* Btn */
 const btnDarkMode = document.querySelector('.dark-mode-btn');
+const burgerMenu = document.querySelector('.burger');
+burgerMenu.onclick = function () {
+	let navList = document.querySelector('.nav-list');
+	btnDarkMode.classList.toggle('none');
+	navList.classList.toggle('none');
+};
 //Checking #1 dark mode in system settings
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme:dark)').matches) {
 	btnDarkMode.classList.add('dark-mode-btn--active');

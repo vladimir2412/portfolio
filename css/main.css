@@ -106,6 +106,9 @@ body {
 	font-weight: 500;
 	row-gap: 10px;
 }
+.burger {
+	display: none;
+}
 /* Dark Mode btn */
 .dark-mode-btn {
 	order: 1;
@@ -369,6 +372,16 @@ body {
 		justify-content: space-between;
 	}
 	.dark-mode-btn {
+		display: none;
+	}
+	.nav-list {
+		display: none;
+	}
+	.none {
+		display: flex;
+	}
+	.burger {
+		display: block;
 		order: 0;
 	}
 	/* projects */
